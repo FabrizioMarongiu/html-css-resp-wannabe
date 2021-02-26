@@ -114,4 +114,53 @@ img {
   }
 }
 
+/* ******************************************************************* */
+/* RESPONSIVE 420px> <1024px */
+/* ******************************************************************* */
 
+@media screen and (min-width: 420px) and (max-width: 1024px){
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 48%;
+  }
+
+  #lezioni .row>.right {
+    margin-left: 4%;
+  }
+
+  .row{
+    max-width: 100%;
+  }
+
+  #steps .row .left,
+  #steps .row .central{
+    width: 48%;
+  }
+
+  #steps .row .central{
+    margin-left: 4%;
+  }
+
+  #steps .row .right{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  img{
+    width: 50%;
+    height: auto;
+  }
+
+  #why .row img,
+  #steps .row .right img{
+    width: 25%;
+  }
+
+  
+}
